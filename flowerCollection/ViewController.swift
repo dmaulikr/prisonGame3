@@ -168,9 +168,9 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
         }else if flowerName[count] == "部屋4" && round(originalTapPoint.x) > 1100 && round(originalTapPoint.x) < 1500 && round(originalTapPoint.y) > 900 &&
             round(originalTapPoint.y) < 1400 && getNumber3Item == true {
             //画像紐づけて
-            //let storyboard: UIStoryboard = self.storyboard!
-            //let GameOverView = storyboard.instantiateViewController(withIdentifier: "GameOver") as! GameOverViewController
-            //self.present(GameOverView, animated: true, completion: nil)
+            let storyboard: UIStoryboard = self.storyboard!
+            let GameOverView = storyboard.instantiateViewController(withIdentifier: "GoodBey") as! GoodBeyViewController
+            self.present(GameOverView, animated: true, completion: nil)
             
             //コンプリート
         //画像変えて

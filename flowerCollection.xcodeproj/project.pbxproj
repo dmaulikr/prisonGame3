@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A3FD8BB1F503B1700B895B7 /* GoodBeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FD8BA1F503B1700B895B7 /* GoodBeyViewController.swift */; };
 		AA92D0971EC48C0500F1966C /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92D0961EC48C0500F1966C /* NextViewController.swift */; };
 		AAA332B01EE16B45002551DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA332AF1EE16B45002551DA /* FirstViewController.swift */; };
 		AAC3BEB21F065E58007E445C /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC3BEB11F065E58007E445C /* GameOverViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A3FD8BA1F503B1700B895B7 /* GoodBeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodBeyViewController.swift; sourceTree = "<group>"; };
 		AA92D0961EC48C0500F1966C /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		AAA332AF1EE16B45002551DA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		AAC3BEB11F065E58007E445C /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				AAFDCB541EAAF98200659A2C /* AppDelegate.swift */,
 				AAFDCB561EAAF98200659A2C /* ViewController.swift */,
 				AAFDCB581EAAF98200659A2C /* Main.storyboard */,
+				3A3FD8BA1F503B1700B895B7 /* GoodBeyViewController.swift */,
 				AAC3BEB11F065E58007E445C /* GameOverViewController.swift */,
 				AA92D0961EC48C0500F1966C /* NextViewController.swift */,
 				AAA332AF1EE16B45002551DA /* FirstViewController.swift */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3FD8BB1F503B1700B895B7 /* GoodBeyViewController.swift in Sources */,
 				AAFDCB571EAAF98200659A2C /* ViewController.swift in Sources */,
 				AA92D0971EC48C0500F1966C /* NextViewController.swift in Sources */,
 				AAFDCB551EAAF98200659A2C /* AppDelegate.swift in Sources */,

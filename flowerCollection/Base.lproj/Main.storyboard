@@ -194,29 +194,29 @@
             </objects>
             <point key="canvasLocation" x="1157.5999999999999" y="-107.49625187406298"/>
         </scene>
-        <!--Game Over View Controller-->
-        <scene sceneID="VBQ-MH-9nb">
+        <!--Good Bey View Controller-->
+        <scene sceneID="xre-xD-MT6">
             <objects>
-                <viewController id="dCF-qc-mX2" customClass="GameOverViewController" customModule="flowerCollection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoodBey" id="99A-wN-4f8" customClass="GoodBeyViewController" customModule="flowerCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TEe-9t-j5a"/>
-                        <viewControllerLayoutGuide type="bottom" id="7SJ-E8-b9u"/>
+                        <viewControllerLayoutGuide type="top" id="yZb-mb-JlM"/>
+                        <viewControllerLayoutGuide type="bottom" id="P5o-Ma-bfw"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="6kR-bf-DfA">
+                    <view key="view" contentMode="scaleToFill" id="VnE-lZ-FjR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gameover" translatesAutoresizingMaskIntoConstraints="NO" id="mzN-Zf-E1o">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="659"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gameover" translatesAutoresizingMaskIntoConstraints="NO" id="aQ3-5E-MhF">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Zqr-i1-Uhq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FhQ-iG-mfb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1796" y="-109.29535232383809"/>
+            <point key="canvasLocation" x="1904.8" y="-100.29985007496252"/>
         </scene>
     </scenes>
     <resources>
