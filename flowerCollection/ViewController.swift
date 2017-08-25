@@ -30,7 +30,7 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
     
     var getNumber1Item = false{
         willSet {
-            item1Obj.isHidden=true
+            //item1Obj.isHidden=true
 
         }
         didSet {
@@ -39,7 +39,7 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
     }
     var getNumber2Item = false{
         willSet {
-            item2Obj.isHidden=true
+            //item2Obj.isHidden=true
         }
         didSet {
             item2Obj.isHidden = false
@@ -129,13 +129,16 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
             self.present(alert, animated: true, completion: nil)
             self.getNumber1Item = false
             // item画像の非表示
-            item1Obj.isHidden=true
+            //item1Obj.isHidden=true
             // アイテム使用の判定を追加
             ItemUse[0] = true
             //画像入れ替え
             self.imageNames[1] = "image7-off"
             flowerImageView.image = UIImage(named: imageNames[1])
-        //金の鍵取得
+            
+            item1Obj.image = UIImage(named: "item_key_silver_broken")
+
+            //金の鍵取得
         }else if flowerName[count] == "部屋2" && round(originalTapPoint.x) > 750 && round(originalTapPoint.x) < 950 && round(originalTapPoint.y) > 950 && round(originalTapPoint.y) < 1100 && getNumber2Item == false && ItemUse[0] == true {
 
             // アラートを作成
@@ -160,9 +163,11 @@ class ViewController: UIViewController,UIGestureRecognizerDelegate {
             // アラート表示
             self.present(alert, animated: true, completion: nil)
             self.getNumber3Item = true
-        //ゲームオーバー
-        }else if flowerName[count] == "部屋4" && round(originalTapPoint.x) > 600 && round(originalTapPoint.x) < 1700 && round(originalTapPoint.y) > 250 && round(originalTapPoint.y) < 1850 && getNumber3Item == true {
-        //画像紐づけて
+            
+            //ゲームオーバー
+        }else if flowerName[count] == "部屋4" && round(originalTapPoint.x) > 1100 && round(originalTapPoint.x) < 1500 && round(originalTapPoint.y) > 900 &&
+            round(originalTapPoint.y) < 1400 && getNumber3Item == true {
+            //画像紐づけて
             //let storyboard: UIStoryboard = self.storyboard!
             //let GameOverView = storyboard.instantiateViewController(withIdentifier: "GameOver") as! GameOverViewController
             //self.present(GameOverView, animated: true, completion: nil)
